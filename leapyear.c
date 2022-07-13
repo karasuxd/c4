@@ -17,12 +17,12 @@ int main ()
   else if (year % 100 == 0)
     printf("%d is a leap year!", year);
 
-  //perfectly divisible by four, so its a leap year
+  //perfectly divisible by four, so it's a leap year
 
    else if(year % 4 == 0)//2016 isn't divisible by 400 neither 100, but is divisible by 4
     printf("%d is a leap year!", year);
 
-  //all other year are not leap years
+  //all other years are not leap years
   else
     printf("%d is not a leap year!", year);
 
